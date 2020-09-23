@@ -1,0 +1,30 @@
+package com.e.timewise;
+
+import android.os.Bundle;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LoadingPage extends AppCompatActivity {
+
+    public ProgressBar progressBar;
+    public TextView textView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.loading_page);
+        progressBar = findViewById(R.id.progressBar);
+        textView = findViewById(R.id.textView2);
+        progressBar.setMax(100);
+        progressBar.setScaleY(3f);
+        progressAnimation();
+    }
+
+    public void progressAnimation() {
+        ProgressBarAnimation anim = new ProgressBarAnimation(this, progressBar, textView, 0f, 101f);
+        anim.setDuration(9000);
+        progressBar.setAnimation(anim);
+    }
+}

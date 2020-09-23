@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">TimeWise</string>
+    <string name="starting_button">Let The Silly Begins!</string>
+    <string name="check_box1">Fun</string>
+    <string name="action_settings">Settings</string>
+    <string name="check_box2">Knowledge</string>
+    <string name="check_box3">Creative</string>
+    <string name="textView"><![CDATA[Hackers: Ammar,Afif,Murhid & You]]></string>
+    <string name="imageView">TODO</string>
+    <string name="imageView2">TODO</string>
+    <string name="imageView3">TODO</string>
+    <string name="question" />
+    <string name="hint">Hint :</string>
+    <string name="surrender">Spare My Life</string>
+    <string name="submit">Submit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageView4">TODO</string>
+    <string name="answer">Your Answer</string>
+    <string name="play_again">Click me again !!!</string>
+    <string name="your_answer_text">Your answer will be display here</string>
+    <string name="playeranswer">Your answer :</string>
+    <string name="real_answer">The answer is :</string>
+    <string name="textView4"/>
+    <string name="estimated_age">I think you are :</string>
+    <string name="textView6">TextView</string>
+    <string name="comment_label">Comments :</string>
+    <string name="ans_comment"/>
+    <string name="button_answer">Reveal Your Secret</string>
+    <string name="avatar">TODO</string>
+    <string name="sillyhacks">TODO</string>
+    <string name="aws">TODO</string>
+    <string name="hackers">hackers-logo</string>
+    <string name="sillyHack">silly hack logo</string>
+    <string name="first_fragment_label">first</string>
 </resources>
